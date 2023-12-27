@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className="nav-container">
       <img src={EarthIcon} alt="World Icon" />
-      <h3>my travel journal.</h3>
+      <h3 className="nav--header">my travel journal.</h3>
     </div>
   )
 }
