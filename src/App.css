@@ -22,7 +22,7 @@ body {
   background-color: #FFF;
 }
 
-.nav-container {
+.header-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,7 +31,7 @@ body {
   background-color: #F55A5A;
 }
 
-.nav--header {
+.header--title {
   font-size: 14.461px;
   margin-left: 7px;
   font-weight: 500;

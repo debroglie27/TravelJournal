@@ -1,6 +1,4 @@
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import Navbar from './components/Navbar'
+import Header from './components/Header'
 import Card from './components/Card'
 import data from './data'
 import './App.css'
@@ -17,7 +15,7 @@ function App() {
 
   return (
     <div className='app-container'>
-      <Navbar />
+      <Header />
       <div className='main-container'>
         {cardElements}
       </div>
