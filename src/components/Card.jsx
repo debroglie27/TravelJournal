@@ -7,12 +7,12 @@ const Card = (props) => {
       <div className="card--content-container">
         <div className="card--location-container">
           <img src={LocationIcon} alt="Location Icon" />
-          <h2>{props.item.location.toUpperCase()}</h2>
-          <a href={props.item.googleMapsUrl}>View on Google Maps</a>
+          <h2 className="card--location">{props.item.location.toUpperCase()}</h2>
+          <a className="card--gmaps-link" href={props.item.googleMapsUrl}>View on Google Maps</a>
         </div>
-        <h1>{props.item.title}</h1>
-        <p>{props.item.startDate} - {props.item.endDate}</p>
-        <p>{props.item.description}</p>
+        <h1 className="card--title">{props.item.title}</h1>
+        <p className="card--date">{props.item.startDate} - {props.item.endDate}</p>
+        <p className="card--description">{props.item.description}</p>
       </div>
     </div>
   )

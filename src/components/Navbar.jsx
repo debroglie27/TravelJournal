@@ -1,8 +1,10 @@
+import EarthIcon from "../assets/earth-icon.svg"
+
 const Navbar = () => {
   return (
-    <div>
-      <img src="" alt="World Icon" />
-      <h3>Travel Journal</h3>
+    <div className="nav-container">
+      <img src={EarthIcon} alt="World Icon" />
+      <h3>my travel journal.</h3>
     </div>
   )
 }
